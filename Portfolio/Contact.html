@@ -10,20 +10,22 @@
     <!-- This will be my ribbon where i can navigate to the different parts of my webpage -->
     <header>
          <div class="navbar">
-         <a href="Home.html">Home</a>
-        <a href="Projects.html">Projects</a>
-        <a href="Resume.html">Resume</a>
-        <a href="Contact.html"> Contact Info</a>
-        <a href="Achivements.html">Achievements</a>
+           <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                <li><a href="Achivements.html">Achievements</a></li>
+                <li><a href="Contact.html"> Contact Info</a></li>
+            </ul>
         </div>
     </header>
     <!-- Here i will make my contact page -->
-    <main>
+    <main id="Contact_Main">
         <!-- This is the main content area -->
         <div class="Main_Contact">
 
             <!-- Heading fo my contact page -->
-            <h1>Contact Me</h1>
+            <h1 id="titleOfContact">Contact Me</h1>
 
             <!-- Making a form for my connecting with me -->
             <div class="Contact form">
@@ -32,12 +34,12 @@
                     <div class="Contact_Item">
 
                         <!-- lets add an lable -->
-                    <label for="Name" id="Contact_Name" class="Contact_Label">Name</label>
+                    <label for="Name" id="Contact_Name" class="Contact_Label">Your Name</label>
                     
                     <br>
 
                     <!-- lets add an input field for name -->
-                    <input type="text" placeholder="Your name">
+                    <input type="text" placeholder="Your name" class="contactForm">
                     </div>
                     <br>
                     <!-- Email section -->
@@ -47,7 +49,7 @@
                     <label for="Email" id="Contact_Email" class="Contact_Label">Email</label>
                     <br>
                     <!-- lets add an input field for email -->
-                    <input type="email" placeholder="Your Email">
+                    <input type="email" placeholder="Your Email" class="contactForm">
                     </div>
                     <br>
 
@@ -59,12 +61,14 @@
                     <br>
                         <!-- lets add a textbox -->
                     <textarea name="suggession" id="Suggession_Box" rows="20" placeholder="I will love to hear from u...."></textarea>
+                    <br>
+                    <!-- Lets add an submit button -->
+             <button type="submit">Submit</button>
                     </div>
                 </form>
             </div>
             
-            <!-- Lets add an submit button -->
-             <button type="submit">Submit</button>
+            
         </div>
     </main>
     <!-- This is the footer section -->
