@@ -4,25 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- This will be my ribbon where i can navigate to the different parts of my webpage -->
     <header>
-         <a href="Home.html">Home</a>
-        <a href="Projects.html">Projects</a>
-        <a href="Resume.html">Resume</a>
-        <a href="Contact.html"> Contact Info</a>
-        <a href="Achivements.html">Achievements</a>
+        <div class="navbar">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                <li><a href="Achivements.html">Achievements</a></li>
+                <li><a href="Contact.html"> Contact Info</a></li>
+            </ul>
+        </div>
     </header>
     <!-- Here i will keep all of my basic info and everything -->
     <main>
         <!-- This is the main content area -->
-
+         
          <!-- Lets add my photo -->
-        <img src="Profile.png" alt="Pratyush Giri"  height="200">
+          <div class="photo">
+            <!-- <img src="Profile.png" alt="Pratyush Giri"  class="profilePhoto"> -->
+          </div>
+          
+        <!-- <img src="Profile.png" alt="Pratyush Giri"  height="200"> -->
          <!-- This is something about me -->
-        <h1>About Me</h1>
+          <div class="homeInfo">
+            <h1 id="homeHead">ABOUT ME</h1>
+            <div class="Homecontext">
         <p>Hello! My name is Pratyush Giri, and I am a passionate programmer. I love creating innovative solutions and exploring new technologies. Welcome to my portfolio website where you can learn more about my projects, skills, and experiences.</p>
+        </div>
+        </div>
     </main>
     <!-- This is the footer section -->
     <footer>
