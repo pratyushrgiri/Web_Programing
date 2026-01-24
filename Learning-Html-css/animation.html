@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        .block{
+            display: inline-block;
+            height: 20em;
+            width: 20em;
+            background-color: #162f4d;
+            transition-property: all;
+            transition-duration: 2s;
+            transition-timing-function:cubic-bezier(1, 0, 0, 1);
+
+        }
+
+        .block:hover{
+            height: 10em;
+            width: 10em;
+            transform: translateY(20em);
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+
+    </div>
+</body>
+</html>
