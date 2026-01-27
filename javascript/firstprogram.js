@@ -13,4 +13,6 @@ age=25;
         console.log(age);
         console.log(price);
         console.log(fullName);
+        //how to display text in html webpage
+        document.getElementById("output").innerHTML ="Helloworld";
 
