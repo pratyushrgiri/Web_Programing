@@ -14,5 +14,20 @@ age=25;
         console.log(price);
         console.log(fullName);
         //how to display text in html webpage
-        document.getElementById("output").innerHTML ="Helloworld";
+        document.getElementById("output").textContent ="Helloworld";
+        //to create an alert 
+        // window.alert("Hi This is an javascript website");
+//variables
+//to create an variable we use let var const 
+let a=10;   //here a is an variable
+// lets print this in the console
+console.log(a);
+
+//lets create a string 
+let name ="Pratyush Raj Giri"
+//lets print this in the console
+console.log(`My name is ${name}.`);
+
+//lets display the type of name in the console
+console.log(typeof name);
 
