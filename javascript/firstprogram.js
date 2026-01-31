@@ -31,3 +31,13 @@ console.log(`My name is ${name}.`);
 //lets display the type of name in the console
 console.log(typeof name);
 
+//operators
+/* so the operators are + - / * ** 1
+    + addition and concenation
+    - subtraction
+    / divison
+    * multiplication
+    ** exponent
+    */
+let number1=1,number2=2;
+console.log(number1+number2);
