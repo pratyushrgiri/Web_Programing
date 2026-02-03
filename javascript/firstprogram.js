@@ -43,25 +43,44 @@
 // console.log(number1+number2);
 
 // loop in javascript
-    let i=0;
-while(i<10){
-    console.log(i);
-    i++;
-}
-console.log(i);
+//     let i=0;
+// while(i<10){
+//     console.log(i);
+//     i++;
+// }
+// console.log(i);
 
 let fruits= ["apple" ,"banana","mango" ]
-    for(i=0;i<fruits.length;i++){
-        console.log(fruits[i]);
-    }
-//this can be done  in another way
-    fruits.forEach(fruits =>{
-        console.log(fruits);
-    })
+//     for(i=0;i<fruits.length;i++){
+//         console.log(fruits[i]);
+//     }
+// //this can be done  in another way
+//     fruits.forEach(fruits =>{
+//         console.log(fruits);
+//     })
 
-function sum(num1, num2){
-    return num1+num2;
+// function sum(num1, num2){
+//     return num1+num2;
+// }
+
+// let temp =sum(1,2)
+// console.log(temp);
+
+// const sum =(num1,num2) =>{
+//     console.log(num1+num2);
+// }
+
+// sum(co
+
+// function output(){
+//     console.log(fruits)
+// }
+// fruits.forEach(output);
+
+const numbers = [10, 20, 30];
+
+function printNumber(x,y,z) {
+    console.log(z);
 }
 
-let temp =sum(1,2)
-console.log(temp);
+numbers.forEach(printNumber);
