@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div id="form">
+        <!-- <span class="Title">Name:</span> -->
+        <input type="text" placeholder="Name" id="name">
+        <p>
+        <!-- <span class="Title">Sex:</span> -->
+        <label class="radio-label">
+            <input type="radio" name="sex" value="male" class="gender radiobtn" id="male">
+            <span class="radio-text" name="male">Male</span>
+        </label>
+        <label class="radio-label">
+            <input type="radio" name="sex" value="female"class="gender radiobtn" id="female">
+            <span class="radio-text" name="female">Female</span>
+        </label>
+        <span id="sexError" ></span>
+        </p>
+        <p>
+        <!-- <span class="Title">Level:</span> -->
+        <label class="radio-label">
+            <input type="radio" name="level" value="+2" class="level radiobtn" id="+2">
+            <span class="radio-text">+2</span>
+        </label>
+        <label class="radio-label">
+            <input type="radio" name="level" value="bachelor" class="level radiobtn" id="bachelor">
+            <span class="radio-text">Bachelor</span>
+        </label>
+        <span id="levelError" color="red"></span>
+        </p>
+
+        <!-- <span class="Title">Roll:</span> -->
+        <input type="number" name="Roll" id="rollNo" min="1" max="200" placeholder="Roll">
+        <!-- <span class="Title">Email:</span> -->
+        <input type="email" name="Email" id="email" placeholder="Email">
+        <!-- <span class="Title">PhoneNo:</span> -->
+        <input type="number" id="phoneNo" placeholder="PhoneNo">
+        <!-- <span class="Title">Your feedback of encoragement for the team.</span> -->
+        <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="feedback" id="feedback"></textarea>
+        <div class="actions">
+            <button class="btn" id="Submit" type="button" >Submit</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
