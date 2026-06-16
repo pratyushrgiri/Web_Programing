@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>
+
+    </title>
+</head>
+<body>
+    <div class="container">
+        <label for="temperature">
+            Temperature: <input type="number"class="input" placeholder="Temp">
+        </label>
+        <label for="celsius">
+            <input type="radio" name="temperature" id="celsius" class="check"><sup>o</sup>C
+        </label>
+        <label for="fahrenheit">
+            <input type="radio" name="temperature" id="fahrenheit" class="check" ><sup>o</sup>F
+        </label>
+        <label for="output">
+            <input type="text" class="output" placeholder="Ans">
+        </label>
+        <small id="error">error</small>
+        <button id="calculate">=</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
