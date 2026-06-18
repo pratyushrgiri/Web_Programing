@@ -1,0 +1,106 @@
+*{
+    padding: 5px;
+    font-size: 18px;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial;
+
+}
+body {
+  font-size: 18px;
+  background: #f6f8fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  padding: 22px;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(18, 38, 63, 0.08);
+  width: 380px;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0 0 14px;
+}
+
+.controls label {
+  display: block;
+  margin: 8px 0;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.controls input[type="number"] {
+  width: 80px;
+  margin-left: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.controls input[type="number"]:focus{
+    outline-color: #0b5fff;
+
+}
+
+.actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#generateBtn {
+  background: #0b5fff;
+  color: #fff;
+  transition:transform,cubic-bezier(0.175, 0.885, 0.32, 1.275),0.25s ;
+  -webkit-transition:transform,cubic-bezier(0.175, 0.885, 0.32, 1.275),0.25s ;
+  -moz-transition:transform,cubic-bezier(0.175, 0.885, 0.32, 1.275),0.25s ;
+  -ms-transition:transform,cubic-bezier(0.175, 0.885, 0.32, 1.275),0.25s ;
+  -o-transition:transform,cubic-bezier(0.175, 0.885, 0.32, 1.275),0.25s ;
+}
+
+#generateBtn:hover{
+    transform: scale(1.05) translatey(-2px);
+    -webkit-transform: scale(1.05) translatey(-2px);
+    -moz-transform: scale(1.05) translatey(-2px);
+    -ms-transform: scale(1.05) translatey(-2px);
+    -o-transform: scale(1.05) translatey(-2px);
+}
+
+#generateBtn:active{
+    transform: scale(0.95) translatey(0px);
+    -webkit-transform: scale(0.95) translatey(0px);
+    -moz-transform: scale(0.95) translatey(0px);
+    -ms-transform: scale(0.95) translatey(0px);
+    -o-transform: scale(0.95) translatey(0px);
+}
+
+.output {
+  background: #f1f3f5;
+  padding: 12px;
+  border-radius: 8px;
+  min-height: 44px;
+  max-height: 100px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-break: break-all;
+  margin-top: 12px;
+  border: 1px solid #eee;
+  
+}
+

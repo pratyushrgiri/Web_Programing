@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Random Password Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Random Password Generator</h1>
+
+    <div class="controls">
+      <label>Length: <input id="length" type="number" min="1" value="12"></label>
+      <label><input id="lower" type="checkbox" checked> Include lowercase</label>
+      <label><input id="upper" type="checkbox" checked> Include uppercase</label>
+      <label><input id="numbers" type="checkbox" checked> Include numbers</label>
+      <label><input id="signs" type="checkbox" checked> Include symbols</label>
+    </div>
+
+    <div class="actions">
+      <button id="generateBtn">Generate</button>
+    </div>
+
+    <pre id="passwordOutput" class="output" aria-live="polite"></pre>
+  </div>
+
+  <script src="index.js" ></script>
+</body>
+</html>
