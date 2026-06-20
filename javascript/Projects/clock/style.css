@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #f0f4ff 0%, #d9e7ff 100%);
+}
+
+
+#clockcontainer{
+    width: min(480px, 90vw);
+    height: clamp(80px, 14vw, 140px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(28px, 7vw, 64px);
+    color: #ffffff;
+    background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(24, 40, 72, 0.25);
+    padding: 12px 20px;
+    letter-spacing: 2px;
+}
