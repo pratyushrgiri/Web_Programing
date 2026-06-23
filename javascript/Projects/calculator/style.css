@@ -26,19 +26,14 @@ body{
 }
 
 .display input{
-    font-size: 50px;
+    font-size: 40px;
     width: 100%;
-    border-radius: 10px;
     text-align: right;
     color: hsl(0, 0%, 20%);
+    pointer-events: none;
     border: none;
     outline: none;
     background: transparent;
-
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
 
 .buttons{
