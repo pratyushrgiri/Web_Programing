@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>About</title>
+	<style>
+		:root {
+			--bg: #fff7ed;
+			--card: #ffffff;
+			--text: #1f2937;
+			--muted: #6b7280;
+			--accent: #f97316;
+		}
+
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+			font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+		}
+
+		body {
+			min-height: 100vh;
+			display: grid;
+			place-items: center;
+			background: linear-gradient(135deg, #ffedd5, var(--bg));
+			color: var(--text);
+			padding: 1rem;
+		}
+
+		.card {
+			width: min(560px, 100%);
+			background: var(--card);
+			border-radius: 12px;
+			box-shadow: 0 12px 30px rgba(17, 24, 39, 0.1);
+			padding: 2rem;
+			text-align: center;
+		}
+
+		h1 {
+			margin-bottom: 0.75rem;
+		}
+
+		p {
+			color: var(--muted);
+			margin-bottom: 1.5rem;
+			line-height: 1.6;
+		}
+
+		a {
+			display: inline-block;
+			text-decoration: none;
+			background: var(--accent);
+			color: white;
+			padding: 0.6rem 1rem;
+			border-radius: 8px;
+			font-weight: 600;
+		}
+
+		a:hover {
+			opacity: 0.9;
+		}
+	</style>
+</head>
+<body>
+	<main class="card">
+		<h1>About Us</h1>
+		<p>We are learning Node.js and serving static files. This page is a basic example of an about section.</p>
+		<a href="/">Back to Home Page</a>
+	</main>
+</body>
+</html>
